@@ -29,7 +29,7 @@ async def start(event):
 		      [Button.url('➕ Məni Qurupa əlavə et ➕', 'http://t.me/GunelTaggerBot?startgroup=a')],
                       [Button.url('Dəstək Qurupu 👨‍💻', 'https://t.me/ElnurGenCeLi')],
                       [Button.url('Rəsmi Kanal 🔖', 'https://t.me/ElnurGenCeLi')],
-                      [Button.url('Crazy MMC 🔖', 'https://t.me/ElnurGenCeLi')],
+                      [Button.url('MMC 🔖', 'https://t.me/ElnurGenCeLi')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ElnurGenCeLi')] 
                     ),
                     link_preview=False
@@ -42,7 +42,7 @@ async def help(event):
                       [Button.url('➕ Məni Qurupa əlavə et ➕', 'http://t.me/GunelTaggerBot?startgroup=a')],
                       [Button.url('Dəstək Qurupu 👨‍💻', 'https://t.me/ElnurGenCeLi')],
                       [Button.url('Rəsmi Kanal 🔖', 'https://t.me/ElnurGenCeLi')],
-                      [Button.url('Crazy Mmc', 'https://t.me/ElnurGenCeLi')],
+                      [Button.url('Mmc', 'https://t.me/ElnurGenCeLi')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ElnurGenCeLi')],
                     ),
                     link_preview=False
