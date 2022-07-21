@@ -553,5 +553,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> Bot aktifdi bot hakda məlumatı\n@ElnurGenCeLi dan ala bilərsən Versiya 1.7.5<<")
+print("Bot aktifdi bot hakda məlumatı @ElnurGenCeLi dan ala bilərsən Versiya 1.7.5")
 client.run_until_disconnected()
