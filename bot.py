@@ -27,8 +27,8 @@ async def start(event):
             buttons=(
                    
 		      [Button.url('➕ Məni Qurupa əlavə et ➕', 'http://t.me/ElegantTagBot?startgroup=a')],
-                      [Button.url('Dəstək Qurupu 👨‍💻', 'https://t.me/ElnurGenCeLi')],
-                      [Button.url('Rəsmi Kanal 🔖', 'https://t.me/elegantxhouse')],
+                      [Button.url('Dəstək Qurupu 👨‍💻', 'https://t.me/elegantxhouse')],
+                      [Button.url('Rəsmi Kanal 🔖', 'https://t.me/ElegantProject')],
                       [Button.url('MMC 🔖', 'https://t.me/ElegantMMC')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ElnurGenCeLi')] 
                     ),
