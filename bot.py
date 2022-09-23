@@ -43,16 +43,6 @@ async def help(event):
                     ),
                     link_preview=False
                    )
-	
-@client.on(events.NewMessage(pattern="^/qurup$"))
-async def qurub(event):
-  helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə - @ElnurGenCeLi"
-  await event.reply(helptext,
-                    buttons=(
-                      [Button.url('ElnurGenCeLi', 'https://t.me/ElnurGenCeLi')],
-                    ),
-                    link_preview=False
-                   )
 
 @client.on(events.NewMessage(pattern="^/alive$"))
 async def alive(event):
