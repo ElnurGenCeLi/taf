@@ -57,8 +57,17 @@ async def help(event):
                     ),
                     link_preview=False
                    )
-	
-	
+
+@client.on(events.NewMessage(pattern="^/alive$"))
+async def alive(event):
+  helptext = "`Bot Süper İşləyir✅`"
+  await event.reply(helptext,
+                    buttons=(
+                      [Button.url('✅Məni Qruba Əlavə Et✅', 'http://t.me/KaronaTaggerRobot?startgroup=a')],
+                    ),
+                    link_preview=False
+                   )
+
 sehidler = "Abdullayev Qəzənfər Nəcəf Abdullayev Nurlan İnqilab Abdullayev Nicat Mirnəbi Abdullayev Məhəmməd Ramazan Allahverənov Telman Fazil Alıyev Qələndər Nofəl Abdullayev İbrahim Habil Abdullayev Elşən Sabir Abdullayev Həsən Qərib󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿".split(" ")
 
 
