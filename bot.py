@@ -39,10 +39,6 @@ async def help(event):
   helptext = "**[Karona](https://t.me/KaronaTaggerRobot) Butonları 🤖**\n\n**/sehidler - ŞƏHİDLƏRİMİZİN ADLARI İLƏ ÇAĞIRAR\n**/cancel - botu dayandırar**\n**/tag <səbəb> - 5-li tag edər**\n**/etag <səbəb> - Emoji ilə tag edərr**\n**/mtag <səbəb> - mafia rolları ilə tag edər\n**/tektag <səbəb> - İstifadəçiləri tək tək tag edər\n**/admins <səbəb> - Yönəticiləri tək tək tag edər\n**/btag <səbəb> - Bayrağla tag edər**\n/stag <səbəb> - Şəhərlərimizin adları ilə tag edər"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕ Məni Qurupa əlavə et ➕', 'http://t.me/KaronaTaggerRobot?startgroup=a')],
-                      [Button.url('Dəstək Qurupu 👨‍💻', 'https://t.me/ElnurGenCeLi')],
-                      [Button.url('Rəsmi Kanal 🔖', 'https://t.me/ElnurGenCeLi')],
-                      [Button.url('Mmc', 'https://t.me/ElnurGenCeLi')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ElnurGenCeLi')],
                     ),
                     link_preview=False
@@ -53,7 +49,7 @@ async def qurub(event):
   helptext = "Premium Söhbət Qurupları ⚡\n\nƏlaqə - @ElnurGenCeLi"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Elegant', 'https://t.me/ElnurGenCeLi')],
+                      [Button.url('ElnurGenCeLi', 'https://t.me/ElnurGenCeLi')],
                     ),
                     link_preview=False
                    )
