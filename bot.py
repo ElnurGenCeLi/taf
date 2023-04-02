@@ -1,3 +1,5 @@
+# @ElnurGenCeLi @aykhan_s @edalet_22 @guliyev_di 
+
 import random, os, logging, asyncio
 from telethon import Button
 from telethon import TelegramClient, events
